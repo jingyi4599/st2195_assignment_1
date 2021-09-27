@@ -1,6 +1,4 @@
-# prints all integers between 1 and 10
+# prints all integers between 1 and 10 using for loop
 
-count = 1
-while count < 11:
-    print(count)
-    count += 1
+for x in range(1,11):
+    print(x)
